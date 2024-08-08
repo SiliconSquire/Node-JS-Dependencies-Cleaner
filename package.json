@@ -1,0 +1,29 @@
+{
+  "name": "dephelper",
+  "version": "1.0.0",
+  "description": "A tool to manage and remove unused dependencies in your Node.js project with an interactive CLI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "unused",
+    "depcheck",
+    "cli",
+    "nodejs",
+    "package.json",
+    "uninstall"
+  ],
+  "author": "SiliconSquire",
+  "license": "MIT",
+  "dependencies": {
+    "depcheck": "^1.4.7",
+    "inquirer": "^10.1.8"
+  },
+  "bin": {
+    "dephelper": "index.js"
+  }
+}
