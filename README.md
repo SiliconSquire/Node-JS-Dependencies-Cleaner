@@ -1,4 +1,4 @@
-# dephelper
+# Node JS -Dependencies Cleaner
 
 **dephelper** is a tool designed to help developers manage unused dependencies in their Node.js projects. It allows you to detect unused dependencies and interactively uninstall them, while also updating your `package.json` file automatically.
 
