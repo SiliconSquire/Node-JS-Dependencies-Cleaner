@@ -25,15 +25,15 @@ Simply navigate to the root of your Node.js project and run:
 dephelper
 ```
 
-Command Line Options
+## Command Line Options
 --uninstall-all: Automatically uninstall all unused dependencies without prompting.
-Interactive Prompts:
-Detect Unused Dependencies: The tool will list all unused dependencies in your project.
-Choose Action: You can choose to:
-Uninstall all unused dependencies.
-Uninstall some of the unused dependencies (you can select which ones).
-Save the list of remaining unused dependencies without uninstalling.
-Do nothing and exit.
-Save Uninstalled Dependencies: If you choose to uninstall dependencies (all or some), the tool will automatically save the list of those uninstalled dependencies in unused-dependencies.json.
-Logs
-The tool logs all actions (uninstalls, updates to package.json, etc.) to dephelper.log.
+## Interactive Prompts:
+## Detect Unused Dependencies: The tool will list all unused dependencies in your project.
+## Choose Action: You can choose to:
+- Uninstall all unused dependencies.
+- Uninstall some of the unused dependencies (you can select which ones).
+- Save the list of remaining unused dependencies without uninstalling.
+- Do nothing and exit.
+- Save Uninstalled Dependencies: If you choose to uninstall dependencies (all or some), the tool will automatically save the list of those uninstalled dependencies in unused-dependencies.json.
+## Logs
+- The tool logs all actions (uninstalls, updates to package.json, etc.) to dephelper.log.
